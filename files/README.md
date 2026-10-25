@@ -1,6 +1,9 @@
 # 把固件放在这个目录
 
-仓库**不附带**任何固件文件（体积大，且版权归各自作者）。请准备下面 5 个文件，
+**最快**：下载 [Release](https://github.com/Skylakc/Redmi-AX6-Auto-Flash-Script/releases/latest)
+里的 `ax6-firmware-bundle.zip`，解压到本目录即可（内含下面 5 个文件 + `SHA256SUMS.txt`）。
+
+也可以自行准备下面 5 个文件（大小、校验值与来源见 [SOURCES.md](SOURCES.md)），
 放到本目录后运行脚本：
 
 | 文件 | 用途 | 备注 |
@@ -13,8 +16,8 @@
 
 文件路径可以在 `config.ini` 的 `[paths]` 里改成别的名字或位置。
 
-📥 **下载渠道、每个文件的 SHA-256 / MD5 校验值，以及“为什么仓库不直接附带固件”
-（版权授权 ≠ 注明出处）**，见 [SOURCES.md](SOURCES.md)。
+📥 **下载渠道、每个文件的 SHA-256 / MD5 校验值**，见 [SOURCES.md](SOURCES.md)。
+固件不提交进 git 历史，配套固件包以 Release 附件形式提供。
 
 > 校验：`ax6_auto.exe --check` 会在不碰设备的情况下检查这 5 个文件是否存在、
 > 大小和格式是否正确（原厂固件的 HDR1 型号、过渡固件的 `UBI#` magic 等）。

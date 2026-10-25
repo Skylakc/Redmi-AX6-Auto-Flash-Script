@@ -26,7 +26,10 @@
    （第 3 步 U-Boot 阶段不支持 Wi-Fi）。
 2. **权限**：需要修改网卡（临时 IP）时会用到管理员权限，
    `run_ax6_auto.bat` 会自动申请。
-3. **固件文件**（仓库不附带，请自行准备并放到 `files\` 目录）：
+3. **固件文件**：放到脚本目录的 `files\` 下。最快的获取方式是下载
+   [Release](https://github.com/Skylakc/Redmi-AX6-Auto-Flash-Script/releases/latest)
+   里的 `ax6-firmware-bundle.zip`（含下面 5 个文件 + `SHA256SUMS.txt`）；
+   也可以按 [files/SOURCES.md](files/SOURCES.md) 从各自官方渠道自行下载：
 
    ```
    files\miwifi_ra69_firmware_45a77_1.0.18.bin
@@ -38,8 +41,8 @@
 
    路径都可以在 `config.ini` 的 `[paths]` 中修改。
 
-   📥 **每个文件从哪下载、SHA-256 校验值是多少、为什么仓库不直接附带**，
-   见 [files/SOURCES.md](files/SOURCES.md)。
+   📥 **每个文件从哪下载、SHA-256 校验值是多少**，见
+   [files/SOURCES.md](files/SOURCES.md)。
 
    ⚠️ ImmortalWrt 必须使用 **`redmi_ax6-stock`** 版本的 factory 固件
    （AX6 是 stock 分区布局）。
@@ -65,7 +68,8 @@
 `run_ax6_auto.bat` 会优先调用同目录的 `ax6_auto.exe`；
 没有 exe 时回退到 `..\python\python.exe`（放在 xmir-patcher 目录内时可用）。
 
-也可以直接双击 `ax6_auto.exe`。
+也可以直接双击 `ax6_auto.exe`（可从
+[Releases](https://github.com/Skylakc/Redmi-AX6-Auto-Flash-Script/releases/latest) 下载）。
 
 ### 方式 B：从源码运行
 
