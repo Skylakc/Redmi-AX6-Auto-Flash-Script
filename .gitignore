@@ -1,0 +1,24 @@
+# ---- 固件与设备相关文件（体积大、版权归各自作者，仓库不附带）----
+files/*.bin
+files/*.ubi
+files/*.img
+files/*.trx
+files/*.tar
+cache/
+
+# ---- 运行时生成 ----
+ax6_auto.log
+ax6_auto.log.*
+state.json
+
+# ---- 打包产物 ----
+*.exe
+build/
+dist/
+*.spec
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/

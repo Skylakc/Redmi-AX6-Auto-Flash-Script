@@ -1,0 +1,8 @@
+# 从源码运行时需要（使用打包好的 ax6_auto.exe 则不需要）
+#
+# SSH 后端：脚本优先使用 ssh2-python（如果环境里有），
+# 没有时自动回退到纯 Python 的 paramiko。
+paramiko>=3.4
+
+# 仅打包 exe 时需要：
+# pyinstaller>=6.0
