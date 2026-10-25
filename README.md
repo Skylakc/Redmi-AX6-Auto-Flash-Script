@@ -38,6 +38,9 @@
 
    路径都可以在 `config.ini` 的 `[paths]` 中修改。
 
+   📥 **每个文件从哪下载、SHA-256 校验值是多少、为什么仓库不直接附带**，
+   见 [files/SOURCES.md](files/SOURCES.md)。
+
    ⚠️ ImmortalWrt 必须使用 **`redmi_ax6-stock`** 版本的 factory 固件
    （AX6 是 stock 分区布局）。
 
