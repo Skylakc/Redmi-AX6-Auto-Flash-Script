@@ -61,4 +61,5 @@ Redmi AX6 通过 `uboot-ax6.bin` 进入的 web 恢复界面，让我们可以在
 | ssh2-python（可选，仅源码模式） | LGPL-2.1 |
 | PyInstaller（仅打包时） | GPL-2.0 + Bootloader exception |
 
-本仓库代码本身以 GPL-3.0 发布，见 [LICENSE](LICENSE)。
+本仓库代码本身以 MIT 发布，见 [LICENSE](LICENSE)。
+上面这些第三方依赖与固件仍遵循各自的许可证（LGPL-2.1 / GPL-2.0 等）。

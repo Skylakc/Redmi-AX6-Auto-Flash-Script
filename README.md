@@ -312,7 +312,8 @@ U-Boot 会认为文件只有 7,324,000 字节，传到 7.28 MiB 就判定“上�
 
 ## 十、许可证
 
-本项目以 **GNU General Public License v3.0** 发布，详见 [LICENSE](LICENSE)。
+本项目代码以 **MIT License** 发布，详见 [LICENSE](LICENSE)。
 
-注意：仓库**不包含**任何第三方固件、U-Boot 二进制或 XMiR-Patcher 的代码，
-这些文件请自行从各自的官方/原作者渠道获取，并遵守各自的许可证。
+第三方组件仍遵循各自的许可证：U-Boot / u-boot_mod 与 ImmortalWrt 为 GPL-2.0，
+paramiko / ssh2-python 为 LGPL-2.1，详见 [THANKS.md](THANKS.md) 与
+[files/SOURCES.md](files/SOURCES.md)。
